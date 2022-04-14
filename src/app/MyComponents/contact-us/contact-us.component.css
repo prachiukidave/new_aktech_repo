@@ -1,0 +1,84 @@
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  
+  }
+  .back{
+    width: 100%;
+    opacity: 0.6;
+    height: 200px!important;
+}
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: underline;
+    color: rgb(44, 21, 58);
+  }
+  
+.service-item,
+.contact-item {
+    background-color: rgb(87, 87, 87);
+    background-size: cover;
+    transition: .5s;
+    color: white;
+}
+
+.service-item:hover,
+.contact-item:hover {
+   /* background: url("../../../assets/images/contact.jpg") bottom center no-repeat;*/
+   background-color: rgb(230, 235, 240);
+    background-size: cover;
+    color: black;
+}
+
+.service-item .service-icon,
+.contact-item .contact-icon {
+    margin-top: -50px;
+    width: 100px;
+    height: 100px;
+    color: white;
+    background: #FFFFFF;
+    transform: rotate(-45deg);
+}
+
+.service-item .service-icon div,
+.contact-item .contact-icon div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: blue;
+    transition: .5s;
+}
+
+.service-item .service-icon i,
+.contact-item .contact-icon i {
+    transform: rotate(45deg);
+    transition: .5s;
+}
+
+.service-item:hover .service-icon div,
+.contact-item:hover .contact-icon div {
+    background: rgb(114, 102, 223);
+}
+
+.service-item:hover .service-icon i,
+.contact-item:hover .contact-icon i {
+    color: white;
+}
+
+.service-item a.btn {
+    position: relative;
+    bottom: -30px;
+    opacity: 0;
+}
+
+.service-item:hover a.btn {
+    bottom: 0;
+    opacity: 1;
+}

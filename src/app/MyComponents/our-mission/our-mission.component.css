@@ -1,0 +1,48 @@
+.card{
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    padding:20px;
+    font-size: 18px;
+    border-bottom: 10px solid blue;
+    border-top: 10px solid white;
+}
+.card:hover{
+    border-top: 10px solid blue;
+    border-bottom: 10px solid blue;
+    background-color: rgb(205, 208, 246);
+}
+.content{
+    padding:30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    
+}
+.back{
+    width: 100%;
+    opacity: 0.6;
+    height: 200px!important;
+}
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: underline;
+    color: rgb(44, 21, 58);
+  }
+h2{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(31, 88, 31)!important;
+    font-weight: bold;
+    padding: 20px;
+}
+@media (max-width:1000px)
+{
+    .card{
+        padding:15px;
+    }
+}

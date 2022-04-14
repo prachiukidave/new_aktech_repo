@@ -1,0 +1,14 @@
+
+h2{
+    
+    text-align: center;
+    font-weight: bold;
+    padding-top: 70px;
+}
+.card-img-top{
+    height: 200px;
+}
+.subscribe-box{
+    padding:30px;
+    background-color: white;
+}

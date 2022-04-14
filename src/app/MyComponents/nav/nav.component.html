@@ -1,0 +1,122 @@
+
+ <!-- Topbar Start -->
+ <div class="container-fluid bg-dark p-0 wow fadeIn pt-2 pb-2" data-wow-delay="0.1s">
+    <div class="row gx-0 d-none d-lg-flex">
+        <div class="col-lg-6 col-md-6 px-5 text-start text-white">
+            <div class="h-100 d-inline-flex">
+                <i class="fa fa-phone mt-1 mr-1 text-primary"></i>+91 9960925883 |&nbsp;
+                <i class="fa fa-map-marker mt-1 mr-1 text-primary"></i>Office No.8, Vishal Arcade, 
+                    Chinchwadgaon, Pune-411033
+ 
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 px-5 text-end">
+          
+            <div class="h-100 d-inline-flex text-white">
+                <i class="fa fa-clock-o mt-1 mr-1 text-primary"></i>Timing:10am-06.30pm|Sunday: Holiday
+               | <i class="fa fa-envelope-open ml-1 mt-1 mr-1 text-primary"></i>info@aktechnosolution.com
+           </div> 
+        </div>
+    </div>
+</div>
+<!-- Topbar End -->
+<!--------Nav Stars------->
+<!--<div class="container-fluid p-0 main_div">
+  <nav class="navbar sticky-top navbar-expand-lg nav_class navbar-light">
+    <a class="navbar-brand" href="#"><img src="../../../assets/images/logo.png" alt="img"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="mr-auto"></div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['home']">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['about-us']">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['our-vision']">Our Vision</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['our-mission']">Our Mission</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['our-service']">Our Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['why-us']">Why Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+    </div>
+  </nav>
+</div>-->
+<!-----------Nav End --------->
+ <!-- Navbar Start -->
+ <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+  
+    <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+        <a class="navbar-brand m-0 text-uppercase bg-white p-3" href="#"><img src="../../../assets/images/logo.png" alt="img"></a>
+     </a>
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a class="nav-link nav-item" aria-current="page" routerLink="/"><b>Home</b><span class="sr-only">(current)</span></a>
+            <a class="nav-link nav-item"  aria-current="page" routerLink="./about-us"><b>About Us</b></a>
+            <a class="nav-link nav-item" [routerLink]="['our-vision']"><b>Our Vision</b></a>
+            <a class="nav-link nav-item" [routerLink]="['our-mission']"><b>Our Mission</b></a>
+            <a class="nav-link nav-item" [routerLink]="['service']"><b>Our Service</b></a>
+            <a class="nav-link nav-item" [routerLink]="['why-us']"><b>Why Us</b></a>
+            <!--<a class="nav-link nav-item btn btn-primary" [routerLink]="['contact-us']"><b>Contact Us</b></a>
+            -->
+        </div>
+        <a class="btn btn-primary py-2 px-4 d-lg-block" [routerLink]="['contact-us']" >Contact Us</a>
+        
+        </div>
+</nav>
+<!-- Navbar End -->
+<!-- Navbar Start ---
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm px-5 py-3 py-lg-0">
+    <a href="index.html" class="navbar-brand p-0">
+       <a class="navbar-brand m-0 text-uppercase bg-white p-3" href="#"><img src="../../../assets/images/logo.png" alt="img"></a>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto py-0 pe-4 border-end border-5 border-primary">
+          <a class="nav-link nav-item" [routerLink]="['home']">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link nav-item" [routerLink]="['about-us']">About Us</a>
+          <a class="nav-link nav-item" [routerLink]="['our-vision']">Our Vision</a>
+          <a class="nav-link nav-item" [routerLink]="['our-mission']">Our Mission</a>
+          <a class="nav-link nav-item" [routerLink]="['our-service']">Our Service</a>
+          <a class="nav-link nav-item" [routerLink]="['why-us']">Why Us</a>
+          
+           --- <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                <div class="dropdown-menu m-0">
+                    <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                    <a href="detail.html" class="dropdown-item">Blog Detail</a>
+                    <a href="team.html" class="dropdown-item">The Team</a>
+                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                </div>
+            </div>---
+        </div>
+        <div class="d-none d-lg-flex align-items-center ps-4">
+            <i class="fa fa-2x fa-mobile-alt text-secondary me-3"></i>
+            <div>
+              <a class="nav-link nav-item" [routerLink]="['contact-us']">Contact Us</a>
+            </div>
+        </div>
+    </div>
+  </nav>
+  --- Navbar End -->
+
+  
+  

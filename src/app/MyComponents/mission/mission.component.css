@@ -1,0 +1,6 @@
+.card{
+    height: 100px;
+    border-right: 3px solid white;
+    border-left: 3px solid white;
+    background-color: rgb(27, 26, 26);
+}
