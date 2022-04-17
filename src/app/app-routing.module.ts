@@ -16,7 +16,8 @@ const routes: Routes = [
   {path:'our-mission',component:OurMissionComponent},
   {path:'service',component:ServiceComponent},
   {path:'why-us',component:WhyUsComponent},
-  {path:'contact-us',component:ContactUsComponent}
+  {path:'contact-us',component:ContactUsComponent},
+  {path:'',redirectTo:'/home',pathMatch:'full'}
 ];
 
 @NgModule({

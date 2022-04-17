@@ -16,6 +16,7 @@ import { HomeComponent } from './MyComponents/home/home.component';
 import { ServiceComponent } from './MyComponents/service/service.component';
 import { AboutComponent } from './MyComponents/about/about.component';
 import { MissionComponent } from './MyComponents/mission/mission.component';
+import { VisionComponent } from './MyComponents/vision/vision.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { MissionComponent } from './MyComponents/mission/mission.component';
     HomeComponent,
     ServiceComponent,
     AboutComponent,
-    MissionComponent
+    MissionComponent,
+    VisionComponent
   ],
   imports: [
     BrowserModule,
