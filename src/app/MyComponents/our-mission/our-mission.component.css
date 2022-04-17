@@ -4,11 +4,11 @@
     align-items: center;
     padding:20px;
     font-size: 18px;
+    border-top: 10px solid rgb(255, 123, 0);;
     border-bottom: 10px solid blue;
-    border-top: 10px solid white;
 }
 .card:hover{
-    border-top: 10px solid blue;
+    border-top: 10px solid rgb(255, 123, 0);;
     border-bottom: 10px solid blue;
     background-color: rgb(205, 208, 246);
 }

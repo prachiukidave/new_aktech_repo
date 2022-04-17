@@ -85,16 +85,17 @@
     color: white;
   }
   .symm:hover{
-    color: blue;
+    color: rgb(255, 123, 0);
   }
   .links{
  color: white;
+ text-decoration: none;
   }
   .links:hover{
     padding-left: 15px;
-    color: blue;
+    color: rgb(255, 123, 0);
   }
   .footer-title{
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid rgb(255, 123, 0);
   }
   

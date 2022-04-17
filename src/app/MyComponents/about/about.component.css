@@ -33,14 +33,11 @@
     font-size: 16px;
     align-items: center;
   }
-  li{
-      list-style: none;
-      padding-top: 10px;
-      
-  }
+  
   img{
     width:550px;
     height: 450px;
+    border-radius: 20px;
   }
   @media(max-width:600px){
     img{
@@ -64,4 +61,34 @@
     .col-sm-4 {
       margin:0px;
     }
+  }
+
+
+
+
+  .list-numbered {
+    list-style: none;
+    margin-left: 1em;
+    counter-reset: line;
+  }
+  
+  .list-numbered > li {
+    position: relative;
+    margin-bottom: 1.5em;
+  }
+  
+  .list-numbered > li:before {
+    position: absolute;
+    left: -2.25em;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 0.5em;
+    background-color: rgb(255, 123, 0);
+    border-radius: 50%;
+    color: #fff;
+    text-align:center;
+    line-height: 1.25em;
+    counter-increment: line;
+    content: counter(line);
   }

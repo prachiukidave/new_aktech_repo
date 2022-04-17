@@ -7,8 +7,17 @@ h2{
 }
 .card-img-top{
     height: 200px;
+    border-radius: 15px;
 }
 .subscribe-box{
     padding:30px;
     background-color: white;
+}
+.custom_radius{
+    border-radius: 15px;
+}
+.custom_radius .card-title{
+text-align: center;
+color: rgba(241, 53, 6, 0.794);
+font-weight: bold;
 }

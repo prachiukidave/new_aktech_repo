@@ -41,11 +41,13 @@
   #img1{
     width:550px;
     height: 450px;
+    border-radius: 20px;
   }
   @media(max-width:600px){
     #img1{
         width:400px;
         height: 400px;
+        border-radius: 20px;
     }
   }
   @media(max-width:300px){
@@ -53,6 +55,7 @@
         width:170px;
         height: 200px;
         padding-left: 0px;
+        border-radius: 20px;
     }
     ul{
         font-size: 10px;
@@ -60,4 +63,33 @@
     h2{
         font-size: 20px;
     }
+  }
+
+
+
+  .list-numbered {
+    list-style: none;
+    margin-left: 1em;
+    counter-reset: line;
+  }
+  
+  .list-numbered > li {
+    position: relative;
+    margin-bottom: 1.5em;
+  }
+  
+  .list-numbered > li:before {
+    position: absolute;
+    left: -2.25em;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 0.5em;
+    background-color: rgb(56, 115, 243);
+    border-radius: 50%;
+    color: #fff;
+    text-align:center;
+    line-height: 1.25em;
+    counter-increment: line;
+    content: counter(line);
   }
