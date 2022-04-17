@@ -116,10 +116,12 @@
     transition: .5s;
 } */
 .fixed-top {
-    position: fixed;
-    top: 40px!important;
+    top: 0px!important;
     width: 100%;
+    transition: 0.9s;
+    position: sticky;
   }
+
   
 
 @media (max-width: 991.98px) {
@@ -132,6 +134,8 @@
         border-top: 1px solid #EEEEEE;
     }
 }
+
+
 
 @media (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
@@ -151,3 +155,12 @@
         opacity: 1;
     }
 }
+
+@media (max-width: 992px) {
+    .fixed-top {
+        position: fixed;
+        top: 0px!important;
+        width: 100%;
+    }
+}
+
