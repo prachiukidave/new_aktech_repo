@@ -11,5 +11,6 @@ color: hsl(24, 96%, 45%);
 @media (max-width:600px) {
     .card{
         padding: 0px;
+        height: 165px;
     }
 }

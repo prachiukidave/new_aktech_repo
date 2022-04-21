@@ -7,12 +7,12 @@
   }
   .back{
     width: 100%;
-    opacity: 0.6;
+    opacity: 0.4;
     height: 200px!important;
 }
 .centered {
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-decoration: underline;
@@ -81,4 +81,7 @@
 .service-item:hover a.btn {
     bottom: 0;
     opacity: 1;
+}
+.service-item{
+    height: 350px;
 }

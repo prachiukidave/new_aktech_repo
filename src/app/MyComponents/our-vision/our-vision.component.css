@@ -7,13 +7,13 @@
   }
   .back{
     width: 100%;
-    opacity: 0.6;
+    opacity: 0.4;
     height: 200px!important;
     
 }
 .centered {
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-decoration: underline;
@@ -95,3 +95,9 @@
     counter-increment: line;
     content: counter(line);
   }
+  @media (max-width:660px) {
+    #img1{
+       width: 300px;
+       height: 300px;
+        }
+    }

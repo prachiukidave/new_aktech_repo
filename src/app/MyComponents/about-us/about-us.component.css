@@ -7,12 +7,12 @@
   
 .back{
   width: 100%;
-  opacity: 0.6;
+  opacity: 0.4;
   height: 200px!important;
 }
 .centered {
   position: absolute;
-  top: 30%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(44, 21, 58);
@@ -76,6 +76,12 @@ img{
   }
 }
 
+@media (max-width:660px) {
+  #serv1{
+     width: 300px;
+     height: 300px;
+      }
+  }
 
 
 

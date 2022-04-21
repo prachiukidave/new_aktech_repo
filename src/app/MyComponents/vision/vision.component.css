@@ -93,3 +93,10 @@
     counter-increment: line;
     content: counter(line);
   }
+
+  @media (max-width:660px) {
+    #img1{
+       width: 300px;
+       height: 300px;
+        }
+    }

@@ -68,16 +68,16 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto p-4 p-lg-0">
-            <a class="nav-link nav-item" aria-current="page" routerLink="/home"><b>Home</b><span class="sr-only">(current)</span></a>
-            <a class="nav-link nav-item"  aria-current="page" routerLink="/about-us"><b>About Us</b></a>
-            <a class="nav-link nav-item" [routerLink]="['our-vision']"><b>Our Vision</b></a>
-            <a class="nav-link nav-item" [routerLink]="['our-mission']"><b>Our Mission</b></a>
-            <a class="nav-link nav-item" [routerLink]="['service']"><b>Our Service</b></a>
-            <a class="nav-link nav-item" [routerLink]="['why-us']"><b>Why Us</b></a>
+            <a class="nav-link nav-item" aria-current="page" routerLink="/home" data-toggle="collapse" data-target=".navbar-collapse"><b>Home</b><span class="sr-only">(current)</span></a>
+            <a class="nav-link nav-item"  aria-current="page" routerLink="/about-us" data-toggle="collapse" data-target=".navbar-collapse"><b>About Us</b></a>
+            <a class="nav-link nav-item" [routerLink]="['our-vision']" data-toggle="collapse" data-target=".navbar-collapse"><b>Our Vision</b></a>
+            <a class="nav-link nav-item" [routerLink]="['our-mission']" data-toggle="collapse" data-target=".navbar-collapse"><b>Our Mission</b></a>
+            <a class="nav-link nav-item" [routerLink]="['service']" data-toggle="collapse" data-target=".navbar-collapse"><b>Our Service</b></a>
+            <a class="nav-link nav-item" [routerLink]="['why-us']" data-toggle="collapse" data-target=".navbar-collapse"><b>Why Us</b></a>
             <!--<a class="nav-link nav-item btn btn-primary" [routerLink]="['contact-us']"><b>Contact Us</b></a>
             -->
         </div>
-        <a class="btn btn-primary py-2 px-4 d-lg-block" [routerLink]="['contact-us']" >Contact Us</a>
+        <a class="btn btn-primary py-2 px-4 d-lg-block" [routerLink]="['contact-us']" data-toggle="collapse" data-target=".navbar-collapse">Contact Us</a>
         
         </div>
 </nav>
@@ -119,5 +119,4 @@
   </nav>
   --- Navbar End -->
 
-  
   

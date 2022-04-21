@@ -7,12 +7,12 @@
   
 .back{
   width: 100%;
-  opacity: 0.6;
+  opacity: 0.4;
   height: 200px!important;
 }
 .centered {
   position: absolute;
-  top: 30%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(44, 21, 58);
@@ -41,20 +41,20 @@
       padding-top: 10px;
       
   }
-  img{
+  .imgs{
     width:600px;
     height: 450px;
     border-radius: 20px;
   }
   @media(max-width:600px){
-    img{
-        width:400px;
-        height: 400px;
+    .imgs{
+        width: 360px !important;;
+        height: 300px;
         border-radius: 20px;
     }
   }
   @media(max-width:300px){
-    img{
+    .imgs{
         width:170px;
         height: 200px;
         border-radius: 20px;
