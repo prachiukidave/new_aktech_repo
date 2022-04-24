@@ -17,6 +17,10 @@ import { ServiceComponent } from './MyComponents/service/service.component';
 import { AboutComponent } from './MyComponents/about/about.component';
 import { MissionComponent } from './MyComponents/mission/mission.component';
 import { VisionComponent } from './MyComponents/vision/vision.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { ContactFormComponent } from './MyComponents/contact-form/contact-form.component';
+import {HttpClientModule} from '@angular/common/http';
+import {NameService} from './name.service';
 
 @NgModule({
   declarations: [
@@ -34,13 +38,16 @@ import { VisionComponent } from './MyComponents/vision/vision.component';
     ServiceComponent,
     AboutComponent,
     MissionComponent,
-    VisionComponent
+    VisionComponent,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy},
+  NameService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
