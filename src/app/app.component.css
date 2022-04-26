@@ -1,0 +1,12 @@
+.title{
+    margin-top: 80px;
+}
+@media (max-width:700px) {
+        button{
+            margin-left: 30px!important;
+            margin-right: 10px!important;
+        }
+        .title{
+            margin-top: 20px;
+        }
+    }
