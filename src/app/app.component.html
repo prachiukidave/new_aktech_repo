@@ -50,7 +50,7 @@
                    <div class="col-md-12 col-lg-8 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
                        <div class="contact-no-area">
                            <h2 class="title text-white pt-5 text-center">Contact Us</h2>
-                           <h2 class="title text-white pt-1 text-center">How Can We Help?</h2>
+                           <!--<h2 class="title text-white pt-1 text-center">How Can We Help?</h2> -->
                           
                            <form class="dzSubscribe subscribe-box row align-items-center sp15">
                                <div class="row m-1">
@@ -86,11 +86,13 @@
                              
                                <div class="col-lg-12 col-md-12">
                                    <div class="input-group mt-3">
-                                       <button (click)="onSend(name.value,mobile_number.value,email.value,subject.value)" name="submit" value="Submit"  class="site-button btn-block btn-primary btn-lg btnhover13">Send Message</button>
-                                   </div>
+                                       <button (click)="onSend(name.value,mobile_number.value,email.value,subject.value)" onClick="alert( 'Message Send Successfully!' )" name="submit" value="Submit" id="sub" class="site-button btn-block btn-primary btn-lg btnhover13">Send Message</button>
+                                   {{response}}
+                                      </div>
                                </div>
                            </form>
                        </div>
+                       <br>
                    </div>
                    <div class="col-md-12 col-lg-4 contact-img-bx wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.2s">
                        <img src="../assets/images/women.jpg" alt="" id="serv1">	
@@ -101,3 +103,9 @@
        <!-- Contact Form END -->
  <app-footer></app-footer>
 </div>
+<script>
+  $("#sub").click(function () {
+      // setTimeout(function(){  }, 3000);
+      alert("done");
+    });
+</script>

@@ -9,7 +9,11 @@ export class NameService {
 
   constructor(private http:HttpClient) { }
     onSendService(fromData:FormData):Observable<any>{
-    //   return this.http.post<any>('http://localhost/PKSites/ak_serverside/ak_serverside/forms/mailQuery.php',fromData)
-    return this.http.post<any>('http://akts.in/ak_serverside/forms/mailQuery.php',fromData)   
+       //console.log(this.http.post<any>('http://localhost/PKSites/ak_serverside/ak_serverside/forms/mailQuery.php',fromData));
+       //return this.http.post<any>('http://localhost/PKSites/ak_serverside/ak_serverside/ak_serverside/forms/mailQuery.php',fromData)
+   
+       return this.http.post<any>('http://akts.in/ak_serverside/forms/mailQuery.php',fromData)   
+  
   }
+  
   }
